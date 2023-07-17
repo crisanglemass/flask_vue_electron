@@ -1,0 +1,17 @@
+{
+  "title": "Hello",
+  "message": "Welcome to my app!",
+  "Introduction": "Introduction",
+  "uploadTips": "only can upload .txt file and the size of file cant exceed 5MB",
+  "iterationTimes": "iterationTimes",
+  "originLanguage": "originLanguage",
+  "targetLanguage": "targetLanguage",
+  "failtouploadTips": "You Should need to change the slider firstly.",
+  "Cancel": "Cancel",
+  "originContent": "originContent",
+  "targetContent": "targetContent",
+  "Home": "Home",
+  "Academic": "Academic",
+  "Translate": "Translate",
+  "create-account": "Create Account"
+}
