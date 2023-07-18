@@ -1,7 +1,3 @@
-<div align="center">
-<p>
-</p>
-<br>
 <div>
    <a href="https://github.com/crisanglemass"><img src="https://img.shields.io/badge/Github-crisanglemass-plasticlogo=github&logoColor=white" ></a>
    <a href="https://redis.io"><img src="https://img.shields.io/badge/redis-passing-plastic?logo=redis&logoColor=red" ></a>
@@ -43,6 +39,7 @@ bash install.sh
 sudo chomd+x launch.sh
 bash launch.sh 
 ```
+
 ## Detailed deployment
 ### Win
 1. Firstly,create virtual environment.
@@ -64,6 +61,7 @@ npm run serve
 ``` npm
 npm run build
 ```
+
 5. start server app
 ```python
 python app.py
@@ -74,7 +72,6 @@ electron .
 electron-builder --win --x64
 #the desktop sofware is produced to file. dist
 ```
-
 ### Linux
 To be continued
 
