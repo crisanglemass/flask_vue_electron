@@ -14,7 +14,7 @@ from redis import StrictRedis
 
 class BaseConfig:
     # mysql database
-    HOSTNAME = "xxxxxx"  # hostname as 127.0.0.1
+    HOSTNAME = "xxxxx"  # hostname as 127.0.0.1
     PORT = "xxxxxx"  # port as 3306
     USERNAME = "xxxxxx"
     PASSWORD = "xxxxxx"
