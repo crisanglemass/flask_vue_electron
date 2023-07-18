@@ -1,3 +1,5 @@
+
+<div align="center">
 <div>
    <a href="https://github.com/crisanglemass"><img src="https://img.shields.io/badge/Github-crisanglemass-plasticlogo=github&logoColor=white" ></a>
    <a href="https://redis.io"><img src="https://img.shields.io/badge/redis-passing-plastic?logo=redis&logoColor=red" ></a>
@@ -9,15 +11,17 @@
    <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/nodejs-18.16.1-plastic?logo=&logoColor=red" ></a> 
    <img src="https://img.shields.io/badge/License-MIT-plastic?logo=Vue&logoColor=red" >
 </div>
-<div align="center">Introduction</div>
+Introduction
+</div>
 This project aims to rapidly develop environment of flask_vue_electron and provide beginners with solvable 
 development documents for potential issues.
 
 
 See the [Crisangle Blog](https://www.crisangle.com) for development documents.
-
+<div align="center">
 <details open>
 <summary>Install</summary>
+</div>
 
 Clone repo and install [requirements.txt](https://github.com/crisanglemass/flask_vue_electron/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/),[**Nodejs**](https://nodejs.org/) environment.
@@ -72,6 +76,7 @@ electron .
 electron-builder --win --x64
 #the desktop sofware is produced to file. dist
 ```
+
 ### Linux
 To be continued
 
