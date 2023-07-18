@@ -15,24 +15,40 @@
    <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/nodejs-18.16.1-plastic?logo=&logoColor=red" ></a> 
    <img src="https://img.shields.io/badge/License-MIT-plastic?logo=Vue&logoColor=red" >
 </div>
+<div align="center">Introduction</div>
+This project aims to rapidly develop environment of flask_vue_electron and provide beginners with solvable 
+development documents for potential issues.
 
-## <div align="center">Documentation</div>
-
-See the [Crisangle Blog](https://www.crisangle.com) for full documentation on training, testing and deployment.
-
-## <div align="center">Quick Start Examples</div>
+See the [Crisangle Blog](https://www.crisangle.com) for development documents.
 
 <details open>
 <summary>Install</summary>
 
-Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
+Clone repo and install [requirements.txt](https://github.com/crisanglemass/flask_vue_electron/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/),[**Nodejs**](https://nodejs.org/)environment.
 
-```bash
-git clone https://github.com/crisangle/flask_vue_electron  # clone
-cd yolov5
-pip install -r requirements.txt  # install
+
+## Rapid environmental development
+Tips:You should ensure you have installed nodejs and python in your device either Windows or Linux,Mac OS.
+### Win
+```bat
+./install.bat 
 ```
+
+### Linux
+```shell
+sudo chomd+x install.sh
+bash install.sh 
+```
+## Detailed deployment
+### Win
+1. Firstly,create virtual environment.
+```python 
+py -3.9 -m venv venv
+venv\Scripts\python -m pip install -r requirements.txt
+```
+2. 
+
 
 <div align="center">
     <a href="https://github.com/ultralytics">
