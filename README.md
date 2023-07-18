@@ -1,7 +1,5 @@
 <div align="center">
 <p>
-   <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
-   <img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/splash.jpg"></a>
 </p>
 <br>
 <div>
@@ -25,20 +23,24 @@ See the [Crisangle Blog](https://www.crisangle.com) for development documents.
 <summary>Install</summary>
 
 Clone repo and install [requirements.txt](https://github.com/crisanglemass/flask_vue_electron/blob/master/requirements.txt) in a
-[**Python>=3.7.0**](https://www.python.org/),[**Nodejs**](https://nodejs.org/)environment.
+[**Python>=3.7.0**](https://www.python.org/),[**Nodejs**](https://nodejs.org/) environment.
 
 
 ## Rapid environmental development
 Tips:You should ensure you have installed nodejs and python in your device either Windows or Linux,Mac OS.
 ### Win
 ```bat
-./install.bat 
+./install.bat
+./launch.bat 
 ```
+
 
 ### Linux
 ```shell
 sudo chomd+x install.sh
 bash install.sh 
+sudo chomd+x launch.sh
+bash launch.sh 
 ```
 ## Detailed deployment
 ### Win
@@ -47,39 +49,34 @@ bash install.sh
 py -3.9 -m venv venv
 venv\Scripts\python -m pip install -r requirements.txt
 ```
-2. 
+2. Then install the npm envs
+```npm
+npm install --save
+cd web
+npm install --save
+```
+3. Compiles and hot-reloads for development
+``` npm
+npm run serve
+```
+4. Compiles and minifies for production
+``` npm
+npm run build
+```
+5. start server app
+```python
+python app.py
+```
+6. if you want to start electron 
+```npm
+electron . 
+electron-builder --win --x64
+#the desktop sofware is produced to file. dist
+```
+
+### Linux
+To be continued
 
 
-<div align="center">
-    <a href="https://github.com/ultralytics">
-        <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-github.png" width="3%"/>
-    </a>
-    <img width="3%" />
-    <a href="https://www.linkedin.com/company/ultralytics">
-        <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-linkedin.png" width="3%"/>
-    </a>
-    <img width="3%" />
-    <a href="https://twitter.com/ultralytics">
-        <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-twitter.png" width="3%"/>
-    </a>
-    <img width="3%" />
-    <a href="https://www.producthunt.com/@glenn_jocher">
-    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-producthunt.png" width="3%"/>
-    </a>
-    <img width="3%" />
-    <a href="https://youtube.com/ultralytics">
-        <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-youtube.png" width="3%"/>
-    </a>
-    <img width="3%" />
-    <a href="https://www.facebook.com/ultralytics">
-        <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-facebook.png" width="3%"/>
-    </a>
-    <img width="3%" />
-    <a href="https://www.instagram.com/ultralytics/">
-        <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-instagram.png" width="3%"/>
-    </a>
-</div>
 
-[assets]: https://github.com/ultralytics/yolov5/releases
 
-[tta]: https://github.com/ultralytics/yolov5/issues/303
