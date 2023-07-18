@@ -17,6 +17,7 @@
 This project aims to rapidly develop environment of flask_vue_electron and provide beginners with solvable 
 development documents for potential issues.
 
+
 See the [Crisangle Blog](https://www.crisangle.com) for development documents.
 
 <details open>
