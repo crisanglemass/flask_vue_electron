@@ -14,23 +14,21 @@ from redis import StrictRedis
 
 class BaseConfig:
     # mysql database
-    HOSTNAME = "sh-cynosdbmysql-grp-3g5ojk8k.sql.tencentcdb.com"
-    PORT = 20687
-    USERNAME = "root"
-    PASSWORD = "102173122Zh"
-    DATABASE = "crisangle_website"
+    HOSTNAME = "xxxxxx"  # hostname as 127.0.0.1
+    PORT = "xxxxxx"  # port as 3306
+    USERNAME = "xxxxxx"
+    PASSWORD = "xxxxxx"
+    DATABASE = "xxxxxx"
     SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOSTNAME}:{PORT}/{DATABASE}?charset=utf8"
     # redis database
-    REDIS_HOST = "124.223.211.19"
-    REDIS_PORT = 6379
+    REDIS_HOST = "xxxxxx"  # host as 127.0.0.1
+    REDIS_PORT = 6379  # port as 6379
     REDIS_DB = '0'
-    REDIS_PASSWORD = "102173122Zh@"
+    REDIS_PASSWORD = "xxxxxx"
     REDIS_CLIENT = StrictRedis(host=REDIS_HOST,
                                port=REDIS_PORT,
                                db=REDIS_DB,
                                password=REDIS_PASSWORD)
-
-
 
 
 class DevelopmentConfig(BaseConfig):

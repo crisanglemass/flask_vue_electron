@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b829ca5c-7363-42b7-a9eb-33f3b6de87fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/web/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/assets/locales/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/assets/locales/zh.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/shims-vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/src/views/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/assets/locales/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/assets/locales/zh.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/shims-vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +177,7 @@
       <workItem from="1689606718377" duration="415000" />
       <workItem from="1689607449058" duration="4771000" />
       <workItem from="1689612878431" duration="572000" />
+      <workItem from="1689647354007" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="124123">
       <created>1689607969000</created>
@@ -250,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689612645514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1689647551419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689647551419</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,10 +240,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="124123" />
-    <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_vue_electron$app.coverage" NAME="app Coverage Results" MODIFIED="1689604461615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
