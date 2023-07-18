@@ -11,6 +11,7 @@ def catch_all(path):
     return render_template('index.html')
 
 
+
 @app.route('/api/auth', methods=['POST'])
 def auth():
     return jsonify({"code": 200, "msg": 'auth successfully', "data": {'msg': 'welcome to crisangle'}})
