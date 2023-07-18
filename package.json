@@ -1,0 +1,66 @@
+{
+  "name": "crisangle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "electron:packager": "electron-packager . --platform=win32 --arch=x64 --out=./dist --asar --app-version=0.1.0 ",
+    "build": "electron-builder --win --x64 ",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "crisanglemass",
+  "license": "ISC",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.7",
+    "electron": "^23.2.0",
+    "electron-packager": "^12.2.0"
+  },
+  "build": {
+    "productName": "Flask_Vue_Electron",
+    "appId": "123456",
+    "copyright": "crisanglemass ? 2023",
+    "directories": {
+      "output": "dist"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": true
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "mac": {
+      "icon": "build/icons/icon.icns"
+    },
+    "win": {
+      "icon": "./public/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "icon": "build/icons"
+    }
+  },
+  "dependencies": {
+  }
+}
